@@ -1,10 +1,21 @@
-var faker = require("faker");
-var utils = require("./utils");
+const faker = require("faker");
+const utils = require("./utils");
+const fs = require("fs");
 
-const adjectives = ["Red", "Blue", "Orange", "Jumpy", "Angry", "Stressed", "Funny", "Deadly", "Fast", "Big", "Ready"];
+const adjectivesColor = ["Red", "Blue", "Orange", "Yellow", "Green", "Black", "White", "Purple", "Pink"];
+const adjectivesType = ["Jumpy", "Angry", "Stressed", "Funny", "Deadly", "Fast", "Big", "Ready", "Tiny", "Accurate", "Optimal"];
 const names = ["Frog", "Beast", "Skeleton", "Bat", "TikiMan", "Zombie", "Fly", "Boar"];
 
-const componentTypes = ["BaseStats", "AIStats"];
+const componentTypes = [
+	{ name: "BaseStats", hasChildren: true },
+	{ name: "AIStats", hasChildren: true },
+	{ name: "OtherStats", hasChildren: true },
+	{ name: "RageStats", hasChildren: true },
+	{ name: "QualityStats", hasChildren: true },
+	{ name: "JumpSpeed", hasChildren: false },
+	{ name: "DamageOverTime", hasChildren: false },
+	{ name: "JumpDistance", hasChildren: false },
+];
 const subComponentTypes = {
 	OffensiveStats: {
 		Power: faker.datatype.number(),
@@ -31,24 +42,36 @@ const subComponentTypes = {
 	},
 };
 
-const dataSize = 10;
+const dataSize = 100;
 
 const data = [];
+
+function generateValue() {
+	const componentType = utils.random(componentTypes);
+	let name = componentType.name;
+	let value;
+
+	if (componentType.hasChildren) {
+		value = utils.repeatGenerate(1, 4, () =>
+			utils.random(Object.keys(subComponentTypes).map((key) => ({ _id: faker.datatype.uuid(), name: key, value: subComponentTypes[key] })))
+		);
+	} else {
+		value = faker.datatype.number();
+	}
+
+	return {
+		_id: faker.datatype.uuid(),
+		name: name,
+		value: value,
+	};
+}
 
 for (let i = 0; i < dataSize; i++) {
 	data.push({
 		_id: faker.datatype.uuid(),
-		name: `${utils.random(adjectives)}${utils.random(adjectives)}${utils.random(names)}`,
-		components: utils.repeat(0, 3, {
-			_id: faker.datatype.uuid(),
-			name: utils.random(componentTypes),
-			values: utils.repeat(
-				0,
-				4,
-				Object.keys(subComponentTypes).map((key) => ({ _id: faker.datatype.uuid(), name: key, value: subComponentTypes[key] }))
-			),
-		}),
+		name: `${utils.random(adjectivesColor)}${utils.random(adjectivesType)}${utils.random(names)}`,
+		components: utils.repeatGenerate(1, 3, generateValue),
 	});
 }
 
-console.log("data", JSON.stringify(data));
+fs.writeFileSync("generated.json", JSON.stringify(data));

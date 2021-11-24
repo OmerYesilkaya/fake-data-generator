@@ -1,0 +1,1401 @@
+[
+	{
+		"_id": "88372993-311c-4f23-8e1d-c5d247246714",
+		"name": "WhiteFunnyBat",
+		"components": [
+			{ "_id": "c084e0b3-354e-4adc-81a0-5811353f19f9", "name": "JumpSpeed", "value": 62647 },
+			{
+				"_id": "db4638a8-5f40-4db8-8b98-5f559f6349e7",
+				"name": "QualityStats",
+				"value": [{ "_id": "47bea047-409a-4bae-a80a-e4bb7bc7baf7", "name": "WanderOffChance", "value": 47973 }]
+			}
+		]
+	},
+	{
+		"_id": "9dac39bc-28d8-4804-97d2-aa5bf67c3903",
+		"name": "WhiteDeadlyFly",
+		"components": [{ "_id": "b5f1e027-92a4-4038-8857-cf2da96b9d35", "name": "JumpDistance", "value": 36249 }]
+	},
+	{
+		"_id": "26b8c0cb-6c9f-4b90-af87-11ff4a8b12b4",
+		"name": "RedAccurateFly",
+		"components": [{ "_id": "a101777e-3d3c-4e8b-b96d-a7088ad0ba44", "name": "JumpSpeed", "value": 99522 }]
+	},
+	{
+		"_id": "d95d6e61-9bea-46da-98f0-561f2e6ab0cc",
+		"name": "GreenJumpyFrog",
+		"components": [
+			{
+				"_id": "5fc9fe00-2584-4854-8639-29bdd957bbd8",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "45078a97-d1cb-4d89-8f31-14be524e517a", "name": "MinIdleTime", "value": 10420.17 },
+					{ "_id": "0f855bbd-3fe1-4184-b2b4-bec590ea5f4c", "name": "Accuracy", "value": 4872 }
+				]
+			},
+			{ "_id": "33640540-3512-43b5-8ccc-5ae042bd2c03", "name": "JumpSpeed", "value": 76430 }
+		]
+	},
+	{
+		"_id": "79a44845-65ea-4e36-b754-7d5168b60810",
+		"name": "RedJumpyBoar",
+		"components": [
+			{
+				"_id": "764880b3-fe44-455d-b103-bb3e96011a51",
+				"name": "RageStats",
+				"value": [{ "_id": "56402422-b039-4bac-8e8f-cc73b594c275", "name": "Accuracy", "value": 4872 }]
+			},
+			{ "_id": "0eddb11a-96d3-4af3-be79-8aeb416309c7", "name": "JumpSpeed", "value": 84300 }
+		]
+	},
+	{
+		"_id": "268296b0-444e-4301-bad4-292ab99e67b7",
+		"name": "GreenAccurateFly",
+		"components": [
+			{
+				"_id": "bbf43a5b-2c79-4dd0-9e02-3b6066dddbd8",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "130e7fcd-766a-452b-8f4b-028b5fab1d8f", "name": "WanderOffDuration", "value": 73149 },
+					{ "_id": "75a9b5a8-dc7f-45f4-bab4-857f823aee19", "name": "MinRoamTime", "value": 27831.34 },
+					{ "_id": "29f31c7c-8758-4cfd-a260-6dc4b25f2b02", "name": "MaxIdleTime", "value": 51654.29 }
+				]
+			},
+			{
+				"_id": "9a135c1c-76db-4666-bfaf-0da458ca8896",
+				"name": "QualityStats",
+				"value": [
+					{
+						"_id": "1aaa2f79-058a-43a8-91e6-a3831974faef",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "f9c61988-e432-4c25-8885-cddcc4fef099",
+		"name": "WhiteFunnyZombie",
+		"components": [
+			{ "_id": "ff6cbb59-9cf3-4182-bd20-d6faa370eeff", "name": "JumpSpeed", "value": 8566 },
+			{
+				"_id": "6d40feff-f7c6-476b-a3cc-c5ab0170466c",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "4977d10d-4c96-42e8-9ec0-cfe0557b4cc9", "name": "MaxRoamTime", "value": 93933.24 },
+					{ "_id": "a89ea747-fcc4-41ec-a62b-041de37e05af", "name": "Position", "value": { "x": 2273, "y": 92938 } }
+				]
+			}
+		]
+	},
+	{
+		"_id": "335cd2a5-0cd0-4815-bf65-b0cba20840d2",
+		"name": "YellowFastZombie",
+		"components": [
+			{
+				"_id": "cb9c10ff-05d3-4add-88b3-5706c93d880a",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "e7274a18-c948-4479-b9ab-311f00ff5602", "name": "WanderOffDuration", "value": 73149 },
+					{ "_id": "00d99ce3-4e6c-4355-94f4-852e490a3afb", "name": "MaxRoamTime", "value": 93933.24 },
+					{ "_id": "c6ab68ab-d3bf-42b4-afe9-4491f115868c", "name": "MaxRoamTime", "value": 93933.24 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "a7bf6e90-be8c-43cb-9ac6-25ff465f0e67",
+		"name": "PinkFunnyBoar",
+		"components": [
+			{ "_id": "cb0d3de0-2f6b-46d9-a2d5-e1775727d16e", "name": "JumpDistance", "value": 49466 },
+			{
+				"_id": "c5d757df-d5ab-4ecc-9ba4-2bef3dd3ed58",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "790d27fc-7e43-437f-990f-ab1f6232980d", "name": "WanderOffDuration", "value": 73149 },
+					{
+						"_id": "09dff22f-2ac6-4224-90a3-28dd0687a8f6",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "cdb076f3-72e8-4704-828a-4831c0c805e2", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "f1a1a93b-375c-4751-8377-d8dba3b8f33a",
+		"name": "RedAngryBat",
+		"components": [
+			{
+				"_id": "5039f92a-58d3-47f3-bcac-b08f05a40bff",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "fb4f1d8a-dd2f-4a7b-ab9f-be4d828a2d57", "name": "Position", "value": { "x": 2273, "y": 92938 } },
+					{
+						"_id": "ddaaa34d-ddbe-435f-9739-d668d38d0306",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					}
+				]
+			},
+			{ "_id": "ecf56263-b1d5-406c-b7e7-25afdb4722d0", "name": "JumpDistance", "value": 16176 }
+		]
+	},
+	{
+		"_id": "c22a7b26-f76e-49ed-ba85-cf8fca98ab60",
+		"name": "PurpleAccurateTikiMan",
+		"components": [
+			{
+				"_id": "d039594e-8b9e-404c-bbce-153d055c5fa3",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "9b3d1597-7eb0-4e93-852d-45adff189b7e", "name": "MinIdleTime", "value": 10420.17 },
+					{ "_id": "d7b87574-b490-409b-b533-4ff026dc44bd", "name": "WanderOffChance", "value": 47973 }
+				]
+			},
+			{ "_id": "49959256-aaa7-4465-9364-916ff378759d", "name": "DamageOverTime", "value": 8162 }
+		]
+	},
+	{
+		"_id": "1b03eb5f-955e-49ec-94fa-a96dc49b24aa",
+		"name": "YellowFunnyTikiMan",
+		"components": [{ "_id": "25f7f872-37af-4ebc-bad6-852bdd1ced8f", "name": "JumpDistance", "value": 73162 }]
+	},
+	{
+		"_id": "c0baf122-d17a-4141-9105-bbc19f97a4f3",
+		"name": "YellowFunnyBeast",
+		"components": [
+			{ "_id": "c10d82b0-5ec2-41ce-a119-8ec118403950", "name": "DamageOverTime", "value": 48703 },
+			{
+				"_id": "589c0b36-9212-4d53-b9fc-97bb16a1625b",
+				"name": "AIStats",
+				"value": [
+					{
+						"_id": "37fb8b77-57a4-4e54-91ec-521c98bff1f4",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "4b1b293d-49e2-423a-a984-793945450707", "name": "WanderOffChance", "value": 47973 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "95cef364-8e05-46e0-bfee-f4c958ef2052",
+		"name": "BlueAccurateTikiMan",
+		"components": [{ "_id": "8c60a462-510a-47d7-a4dd-27444583cf19", "name": "DamageOverTime", "value": 57306 }]
+	},
+	{
+		"_id": "ac629a52-f6e6-46ee-ad7e-e6f0a34d2f82",
+		"name": "BlackBigBat",
+		"components": [{ "_id": "8c17dfd9-2a35-486e-850e-62775da76ed8", "name": "DamageOverTime", "value": 71401 }]
+	},
+	{
+		"_id": "b92eeab5-a609-44d1-aa80-4b0c32f390db",
+		"name": "BlackOptimalBeast",
+		"components": [
+			{
+				"_id": "86894b10-6336-4211-a932-a102fdb4501e",
+				"name": "AIStats",
+				"value": [
+					{
+						"_id": "34951290-5218-4a40-be24-219615410823",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "1830fdab-357a-4a61-9570-38d84bad94d0", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "48d27f94-5e02-4267-a8fe-f42a7d17e7d1", "name": "WanderOffDuration", "value": 73149 }
+				]
+			},
+			{
+				"_id": "393758f6-a659-431c-887d-f3e77b108d0b",
+				"name": "OtherStats",
+				"value": [{ "_id": "6b2b0f48-5dd7-404e-8d71-bce5a83ba2a5", "name": "MaxIdleTime", "value": 51654.29 }]
+			}
+		]
+	},
+	{
+		"_id": "c5d12f07-d7fd-40de-b15b-3ae3aa78b345",
+		"name": "WhiteTinyBoar",
+		"components": [
+			{
+				"_id": "2bd88979-bfc1-4f1d-9d2d-14fbbc19bca6",
+				"name": "AIStats",
+				"value": [
+					{
+						"_id": "1bf12974-8dd0-4ac5-b5b7-211623a2341c",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{ "_id": "ce4da2cc-e6df-4c76-9abf-0bf3b7777ff8", "name": "MinRoamTime", "value": 27831.34 }
+				]
+			},
+			{
+				"_id": "fe57f75c-488d-4633-9888-1ccb8cf9ac22",
+				"name": "RageStats",
+				"value": [
+					{
+						"_id": "91bbce7f-ff0e-487c-ac22-73427b11f87e",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{ "_id": "015ce469-ef0b-4f88-bf3a-64d539008432", "name": "MinRoamTime", "value": 27831.34 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "b92db168-073b-4ecc-9a71-92ff0770a879",
+		"name": "BlueFunnyBat",
+		"components": [
+			{
+				"_id": "57cfc772-a421-4584-8481-8eb0c4e32de2",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "22193947-21ff-43b9-9c10-f41d1d5d1a82", "name": "WanderOffDuration", "value": 73149 },
+					{ "_id": "4617b020-01c7-447c-934d-62d3e9f6b9ea", "name": "MinRoamTime", "value": 27831.34 },
+					{ "_id": "1467221b-7a47-4cc6-94ad-a11f558e017c", "name": "MaxRoamTime", "value": 93933.24 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "12445e9e-38d0-4244-9715-770e332a44ab",
+		"name": "WhiteAngryBoar",
+		"components": [
+			{
+				"_id": "4dc2e0ba-cad0-4b50-9230-655fa191d3b6",
+				"name": "BaseStats",
+				"value": [{ "_id": "7f5d04d3-8c02-4d22-a492-755d74d161a0", "name": "MinRoamTime", "value": 27831.34 }]
+			}
+		]
+	},
+	{
+		"_id": "ec997f75-a9e7-4567-a25c-57b2240b1e59",
+		"name": "GreenFunnyBat",
+		"components": [
+			{
+				"_id": "98267fcb-01a3-419f-b8f7-78d20f324e13",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "a1ec98dc-e355-4b66-aac6-0546e76478dc", "name": "MaxIdleTime", "value": 51654.29 },
+					{ "_id": "0de01abd-a642-4db2-9c07-c26d0fc30069", "name": "Accuracy", "value": 4872 }
+				]
+			},
+			{ "_id": "7c5d6e64-0eb7-4465-bcff-3611b3212bc8", "name": "JumpDistance", "value": 6555 }
+		]
+	},
+	{
+		"_id": "ad7ed4b0-67fc-4698-a796-38885c04039e",
+		"name": "OrangeTinyZombie",
+		"components": [
+			{
+				"_id": "53772fe7-6126-4557-843a-6b947e4da7b0",
+				"name": "RageStats",
+				"value": [
+					{
+						"_id": "8bbfd9bc-ce3a-44a6-9f87-cadeb14e79e0",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{ "_id": "b8b0dad6-a241-4d24-8b5a-9a5122d901d5", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "a1f3b741-efe5-4151-9028-78fb20cd5965", "name": "MaxIdleTime", "value": 51654.29 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "29d69484-afc6-4495-8a9f-9a079b6d2dc2",
+		"name": "WhiteFastTikiMan",
+		"components": [
+			{
+				"_id": "1ec1912e-b9ca-467e-949a-40930df9b520",
+				"name": "AIStats",
+				"value": [{ "_id": "18df6b31-f424-4e4d-b329-e0088acf8c2e", "name": "Position", "value": { "x": 2273, "y": 92938 } }]
+			}
+		]
+	},
+	{
+		"_id": "7efeade0-b173-4087-93c3-c211874b63b5",
+		"name": "PurpleStressedBat",
+		"components": [
+			{
+				"_id": "cc2f9077-b960-48c0-b43e-a2bc05a350b2",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "59c7088b-31e3-4a82-8553-764af90ee225", "name": "MinRoamTime", "value": 27831.34 },
+					{ "_id": "50883b02-9386-4e24-99dc-8361608d2004", "name": "WanderOffDuration", "value": 73149 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "a7a6a2d9-a0af-4732-9e66-896cd41c6f4b",
+		"name": "BlueStressedFly",
+		"components": [
+			{
+				"_id": "7a190767-ed82-46bc-b59f-9dcbe4badfde",
+				"name": "QualityStats",
+				"value": [
+					{
+						"_id": "74c0b731-74ed-4865-80b9-7ccec817574b",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "7b2c16a4-be9a-4809-8c32-cc9c8a0db2e7", "name": "Accuracy", "value": 4872 },
+					{
+						"_id": "2643f9f9-feff-493d-b512-e157c59ae4d0",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					}
+				]
+			},
+			{ "_id": "92e35554-16d8-4db1-bd80-447648523ebf", "name": "JumpSpeed", "value": 16491 }
+		]
+	},
+	{
+		"_id": "84e0837c-82e4-4551-9fe4-018679fe5779",
+		"name": "RedBigBat",
+		"components": [{ "_id": "a40b6453-73b1-4214-86c1-a830cc304423", "name": "JumpSpeed", "value": 87085 }]
+	},
+	{
+		"_id": "06a00573-85f0-4a7d-811a-cdb49e68b105",
+		"name": "OrangeAngrySkeleton",
+		"components": [
+			{ "_id": "6eb0a48e-ea3f-48ce-8ce3-f77ade1c5871", "name": "DamageOverTime", "value": 84634 },
+			{
+				"_id": "546f1adf-0bee-4fdc-9823-bb356472efe5",
+				"name": "QualityStats",
+				"value": [{ "_id": "1221300a-9455-41e1-97d6-7f8f7d80db76", "name": "MinIdleTime", "value": 10420.17 }]
+			}
+		]
+	},
+	{
+		"_id": "32a35d96-94b0-43dd-aae9-ec8f2a2b0a7e",
+		"name": "RedFastZombie",
+		"components": [
+			{ "_id": "fd8700a5-125a-406f-bce8-d1f5d67459f3", "name": "DamageOverTime", "value": 68820 },
+			{
+				"_id": "3b5700aa-689a-42ab-900b-d36a4522458a",
+				"name": "QualityStats",
+				"value": [{ "_id": "927a8975-cb0f-4298-9e47-ae47961f055a", "name": "MinRoamTime", "value": 27831.34 }]
+			}
+		]
+	},
+	{
+		"_id": "8409ee0a-89ac-41cb-95c4-963acd6dd4c2",
+		"name": "PinkOptimalFly",
+		"components": [
+			{
+				"_id": "3c38fd94-bdfb-46d4-a38c-8e033fe906cf",
+				"name": "RageStats",
+				"value": [
+					{ "_id": "56269db4-a998-41bb-b67c-77649b02d2fa", "name": "Accuracy", "value": 4872 },
+					{ "_id": "17810089-fc8e-47f2-a6ff-148110219f0d", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			},
+			{
+				"_id": "fe852b75-da20-4e00-966e-7306c527845d",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "a84561bb-b868-4f40-a13c-d8433fa7c506", "name": "MinIdleTime", "value": 10420.17 },
+					{ "_id": "7b1ce121-da3f-42eb-a36a-d61023c67d5c", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "c1367687-f96a-454f-8e18-a6f8cf49ed88",
+		"name": "RedOptimalTikiMan",
+		"components": [
+			{
+				"_id": "ca1f104a-931f-4d02-934a-b8af6dd1764e",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "5cfbdffa-8644-44f3-a21e-815c02dcb525", "name": "WanderOffDuration", "value": 73149 },
+					{ "_id": "a76ecd19-7e0a-4ad1-8eeb-58fea57a5e2a", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "6f12f97b-8b8c-4923-9360-7c0eb7cf442a",
+		"name": "YellowBigSkeleton",
+		"components": [
+			{
+				"_id": "acce37e4-4cb5-48b1-854d-b37baed6b00c",
+				"name": "QualityStats",
+				"value": [
+					{
+						"_id": "91f95410-582b-41fc-aeb4-3589c1ea58b8",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{ "_id": "f9dbf13f-762f-4393-8dd4-4038a6506036", "name": "Position", "value": { "x": 2273, "y": 92938 } },
+					{ "_id": "e9873b5e-757b-47e3-9630-d5f881698d9e", "name": "MaxIdleTime", "value": 51654.29 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "d4df8062-914d-45fb-b2bc-6f8a04fc65c6",
+		"name": "PinkReadyZombie",
+		"components": [{ "_id": "fb55f9fc-fecb-46fe-b4d4-a20366f3fa45", "name": "JumpDistance", "value": 61046 }]
+	},
+	{
+		"_id": "07f6bddf-4bd0-430f-a7a2-cb709fa132b5",
+		"name": "BlackAccurateFly",
+		"components": [
+			{ "_id": "146c5e47-b940-42ed-aa9f-468976f186ad", "name": "JumpDistance", "value": 14176 },
+			{
+				"_id": "11dfb4cb-b3af-451e-9b04-6d88812d0c22",
+				"name": "QualityStats",
+				"value": [{ "_id": "49b091f9-1ed4-4426-a492-dec94a302d05", "name": "Position", "value": { "x": 2273, "y": 92938 } }]
+			}
+		]
+	},
+	{
+		"_id": "e144d3cd-a5ce-4808-b2d6-45f24c0d6289",
+		"name": "BlackReadyZombie",
+		"components": [
+			{
+				"_id": "b200c630-018e-44ac-8c64-a773c301755a",
+				"name": "QualityStats",
+				"value": [{ "_id": "d4615f6b-89c3-4e35-8b01-cd88cae30caa", "name": "MinRoamTime", "value": 27831.34 }]
+			},
+			{ "_id": "4647f8f6-e7a2-4be2-a93d-674e1c03b2b8", "name": "JumpSpeed", "value": 23920 }
+		]
+	},
+	{
+		"_id": "ed2c87b4-d2b7-45d8-b71b-5f9ddea9a6dc",
+		"name": "RedDeadlyFly",
+		"components": [
+			{ "_id": "650fdd76-16e8-41f6-ae21-dc76301d4020", "name": "JumpDistance", "value": 83736 },
+			{
+				"_id": "1e291c8c-b05b-440c-9e48-3cff546ef411",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "afbb0347-4d90-4b8c-b42f-e6c2c96a9716", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "3e3662a9-6883-4064-a719-cc9030ffa3e6", "name": "Accuracy", "value": 4872 },
+					{ "_id": "1eebb2f2-b2fc-4b2d-b6ad-c469045cf3d2", "name": "MaxRoamTime", "value": 93933.24 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "058c11e1-992f-4a9d-8c78-dc25b6d48920",
+		"name": "PinkAccurateBat",
+		"components": [{ "_id": "f8ed38f8-b052-4c3b-98df-00558e1446d7", "name": "JumpSpeed", "value": 6386 }]
+	},
+	{
+		"_id": "5752e6e7-c3f7-4da7-8244-84bef4031bfe",
+		"name": "OrangeStressedBoar",
+		"components": [
+			{
+				"_id": "04b1630f-5e31-498a-8383-1f39c6aabb1a",
+				"name": "BaseStats",
+				"value": [
+					{ "_id": "730160dc-3f28-43fc-a464-7dfe7cca6bff", "name": "MaxRoamTime", "value": 93933.24 },
+					{ "_id": "856a0c00-03e6-4730-85b3-f5aed10ea6b1", "name": "Position", "value": { "x": 2273, "y": 92938 } }
+				]
+			}
+		]
+	},
+	{
+		"_id": "060c9046-a250-4029-858c-3ebdfeede830",
+		"name": "OrangeAccurateFly",
+		"components": [
+			{
+				"_id": "0b759bea-3225-4624-b542-48395dedcdeb",
+				"name": "OtherStats",
+				"value": [{ "_id": "3cc3dce5-6c7c-49aa-b8fc-68d15ef7168b", "name": "WanderOffDuration", "value": 73149 }]
+			}
+		]
+	},
+	{
+		"_id": "de6ae0b0-db68-480d-a51f-f5ace521a792",
+		"name": "RedBigBoar",
+		"components": [
+			{
+				"_id": "8c1d5a92-1129-4cc5-b8ff-73e051955075",
+				"name": "RageStats",
+				"value": [
+					{ "_id": "2592c8e5-a287-4690-861a-d897f2d384eb", "name": "Position", "value": { "x": 2273, "y": 92938 } },
+					{ "_id": "ed0ce54b-2a97-40db-8c5e-1cf119ff3935", "name": "WanderOffChance", "value": 47973 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "091fe180-b6ac-44c3-bbf4-132f499af9b7",
+		"name": "BlueOptimalTikiMan",
+		"components": [
+			{
+				"_id": "6e466526-f88d-488e-9fb0-076c9624c818",
+				"name": "RageStats",
+				"value": [
+					{
+						"_id": "d1fe82fc-7eac-46f9-b16e-6f0cc17229d5",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "8f8203ff-d750-48c5-b47d-51ee5f4e2651", "name": "WanderOffChance", "value": 47973 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "58c838ad-9c6a-4150-bd21-fb05aceda655",
+		"name": "BlueFunnyBoar",
+		"components": [
+			{ "_id": "5ab46b1b-6a89-4620-9bd0-bc16b43d6e07", "name": "DamageOverTime", "value": 84054 },
+			{
+				"_id": "877b5d1d-e682-405b-aad1-ed5382ae3baa",
+				"name": "OtherStats",
+				"value": [
+					{
+						"_id": "a7c4d995-5756-4366-9485-3f06077a506d",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "b6d86694-1f15-40d8-bc07-1771537a4f89", "name": "MaxIdleTime", "value": 51654.29 },
+					{ "_id": "a644f1bd-86d4-43db-93da-e0aaf53329e5", "name": "WanderOffDuration", "value": 73149 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "c82c1ec1-1bc2-416a-8f1c-7265f0be4442",
+		"name": "YellowOptimalFly",
+		"components": [{ "_id": "cc3be807-7e25-4ff7-804d-4216e6ff3f02", "name": "JumpSpeed", "value": 1237 }]
+	},
+	{
+		"_id": "6a964bee-ae6e-4e03-a95f-f07497733663",
+		"name": "BlueFastBoar",
+		"components": [
+			{
+				"_id": "1adeb865-01a5-4807-8286-4a05c02bbd4f",
+				"name": "OtherStats",
+				"value": [{ "_id": "4606f769-0daa-4bec-a7cb-dc3581ec9d11", "name": "MaxIdleTime", "value": 51654.29 }]
+			}
+		]
+	},
+	{
+		"_id": "afe1f7b8-cce6-43b7-9286-cad8a36f7086",
+		"name": "BlueReadySkeleton",
+		"components": [{ "_id": "7e406889-b2ff-4299-91ec-89631c2fe3a2", "name": "JumpSpeed", "value": 11701 }]
+	},
+	{
+		"_id": "9739a973-9875-40a7-be49-7c2cd6265e2a",
+		"name": "OrangeAngryTikiMan",
+		"components": [
+			{
+				"_id": "7517a630-01e1-4c34-ba2c-e03a55410647",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "dfd684ec-1840-4b40-94a8-e88562666405", "name": "MinIdleTime", "value": 10420.17 },
+					{ "_id": "ea597a76-48c8-47f7-ad66-bf1030fdaceb", "name": "MaxIdleTime", "value": 51654.29 },
+					{
+						"_id": "7b7c4c70-17d5-45dc-b61d-f16de568e296",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "0cdb7e94-3009-4503-bdb0-5ecdf1821a62",
+		"name": "PurpleFastFrog",
+		"components": [
+			{
+				"_id": "d84086de-bbb9-4749-bff9-a193ac66e22f",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "51c6a3ff-acb9-4fb8-aabb-b4ce488ab23b", "name": "MinIdleTime", "value": 10420.17 },
+					{ "_id": "a75c3847-b77c-4a26-9c07-59ab8029e2a0", "name": "Position", "value": { "x": 2273, "y": 92938 } }
+				]
+			}
+		]
+	},
+	{
+		"_id": "5565760d-81c3-4839-a9b8-f29a11a28e72",
+		"name": "RedAccurateTikiMan",
+		"components": [
+			{
+				"_id": "420bfcde-cf52-467d-aa92-b88b367b6d12",
+				"name": "AIStats",
+				"value": [{ "_id": "cd100d54-72c1-4db0-9da2-5a2a5f558727", "name": "Position", "value": { "x": 2273, "y": 92938 } }]
+			},
+			{
+				"_id": "3e17c3cf-76ea-49b5-9fb1-ef124235ec49",
+				"name": "RageStats",
+				"value": [
+					{ "_id": "19f6a1d1-ac80-4082-a81f-f50780b0fd3f", "name": "MinRoamTime", "value": 27831.34 },
+					{ "_id": "4cd18498-59fd-4e1c-8400-d26bbc63d301", "name": "MinRoamTime", "value": 27831.34 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "489a9e45-569e-4aa2-b3f0-66ef920594b3",
+		"name": "RedBigSkeleton",
+		"components": [
+			{
+				"_id": "c8c20f0a-bcd4-4d7a-8c72-7355b75f7d67",
+				"name": "RageStats",
+				"value": [
+					{
+						"_id": "8251dcaf-c447-43fc-b15d-cc884b80707c",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "b13d98af-fec8-43b7-ae9f-4784c9c0055b", "name": "WanderOffChance", "value": 47973 },
+					{
+						"_id": "d3e3f262-72b2-47f4-ab89-31477289c556",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					}
+				]
+			},
+			{
+				"_id": "a22504fb-9a15-478b-82aa-afde3dd5528b",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "e23621c9-c2d0-4944-8eb6-ce4ae081484b", "name": "WanderOffChance", "value": 47973 },
+					{
+						"_id": "833e19bb-464f-487f-b439-edf12a14736e",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{
+						"_id": "7a284730-5739-4b36-bb31-09d7146cc6d5",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "8df6c716-1139-4673-bd11-d3010ee36fb2",
+		"name": "YellowAngryBoar",
+		"components": [
+			{ "_id": "cf865da0-03d4-4bf7-a629-29ae8b404e1e", "name": "JumpDistance", "value": 82080 },
+			{ "_id": "600b4adf-6a24-43c0-ae00-a03fb85402a8", "name": "JumpDistance", "value": 64860 }
+		]
+	},
+	{
+		"_id": "b334dc79-67c6-4866-b923-28d943088da5",
+		"name": "BlackFastBoar",
+		"components": [{ "_id": "b5e14849-32c3-4975-9671-7097e57d2db6", "name": "JumpSpeed", "value": 47587 }]
+	},
+	{
+		"_id": "fd8d4a3e-5a8e-4fb0-a176-0877eb2d90d6",
+		"name": "BlueAccurateZombie",
+		"components": [
+			{ "_id": "c8d9a849-3df8-474a-b901-d87f30b6fc06", "name": "DamageOverTime", "value": 49108 },
+			{ "_id": "8ea3db64-c15b-49c2-bdf3-d84dd5e6a42e", "name": "JumpDistance", "value": 89925 }
+		]
+	},
+	{
+		"_id": "5efd6a04-1972-4683-8f45-5556126191bb",
+		"name": "BlackReadyZombie",
+		"components": [
+			{
+				"_id": "3b444d05-5e4f-4752-ab7a-97c276878d04",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "bb155ee9-e835-4cb6-82fb-d187d6cab678", "name": "WanderOffDuration", "value": 73149 },
+					{ "_id": "b22330ca-bc7a-4cce-a4be-4e7624fb924f", "name": "Accuracy", "value": 4872 }
+				]
+			},
+			{ "_id": "3ce704df-96df-4075-aba6-8b9cbd78ac35", "name": "DamageOverTime", "value": 65066 }
+		]
+	},
+	{
+		"_id": "7cb27e2f-a4ae-45c9-abe4-f8960cbf1ba5",
+		"name": "OrangeAngryFrog",
+		"components": [
+			{
+				"_id": "4713fa0c-c5b8-4bab-bb1a-55c421eee7ff",
+				"name": "QualityStats",
+				"value": [{ "_id": "e4342f7d-c587-4ac7-a59b-44f14d047411", "name": "Accuracy", "value": 4872 }]
+			}
+		]
+	},
+	{
+		"_id": "ddf177d1-b4e8-4834-89fe-f1b6918b17c6",
+		"name": "BlueDeadlySkeleton",
+		"components": [
+			{
+				"_id": "b7ec6acd-dd4c-418c-903d-9f9983d96166",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "03c6c841-f14b-45d8-bbc9-100fee40774b", "name": "WanderOffDuration", "value": 73149 },
+					{
+						"_id": "ac7002c6-8cdf-4396-bdbe-513cdb034466",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "af2d6569-47e0-4572-92e7-c56f61443b5c", "name": "MinRoamTime", "value": 27831.34 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "269ea5a4-8dab-4ca2-b770-c3751fdcc9b0",
+		"name": "YellowBigTikiMan",
+		"components": [{ "_id": "a237d9b0-9095-4364-a341-adbdd9ab6221", "name": "JumpDistance", "value": 89836 }]
+	},
+	{
+		"_id": "2497c521-d137-42a6-a5ae-acd014418a55",
+		"name": "WhiteReadySkeleton",
+		"components": [
+			{ "_id": "1f958546-cfb9-49a1-9179-6f56cc8dc09c", "name": "DamageOverTime", "value": 16174 },
+			{
+				"_id": "8278da7d-9254-41c4-933d-2bfa06501a84",
+				"name": "BaseStats",
+				"value": [
+					{
+						"_id": "f530d877-720c-4006-85c2-51aa5dc3e7b6",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{
+						"_id": "85aa9205-a340-4aa5-bf24-272c026687ac",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "1b3c581f-471e-4910-a734-643fb599be4b",
+		"name": "OrangeReadyBoar",
+		"components": [
+			{
+				"_id": "4a2a9c96-2a94-4779-9604-a9f8ae687e00",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "dc733b64-40f0-4fd7-bff4-a44babbe5474", "name": "MaxIdleTime", "value": 51654.29 },
+					{
+						"_id": "e924b3f3-b345-444b-8c1e-5bbad43273d0",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "b39264bf-0195-4ae3-93ae-955fe060796a",
+		"name": "RedBigTikiMan",
+		"components": [
+			{
+				"_id": "e68f4f94-a3ce-472a-9e1b-f18c744c56b0",
+				"name": "RageStats",
+				"value": [
+					{
+						"_id": "42f1e9ae-4360-4df3-82bf-82da78b4eff0",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{
+						"_id": "cd895408-c033-4d50-93a3-2d2294da7ab6",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "6e2126f3-804b-47fc-a157-00bc11c88df6", "name": "Position", "value": { "x": 2273, "y": 92938 } }
+				]
+			},
+			{ "_id": "aecbec3b-3690-438f-9236-92f251398363", "name": "DamageOverTime", "value": 32712 }
+		]
+	},
+	{
+		"_id": "77c9371a-01ca-419b-b8b4-a788860331ad",
+		"name": "WhiteDeadlyTikiMan",
+		"components": [{ "_id": "08292768-32c9-4837-a0b6-194843943db8", "name": "JumpDistance", "value": 94294 }]
+	},
+	{
+		"_id": "beeb82d1-acf6-4e9e-bcb2-6c4e3afca793",
+		"name": "YellowTinyBeast",
+		"components": [
+			{
+				"_id": "1f852c8e-d582-4966-ac55-39f10cd55594",
+				"name": "BaseStats",
+				"value": [{ "_id": "8692b722-0c48-454b-8c09-4f89d3e0839d", "name": "Position", "value": { "x": 2273, "y": 92938 } }]
+			},
+			{ "_id": "817b9dee-208c-42ec-97f7-da58164972fe", "name": "DamageOverTime", "value": 10470 }
+		]
+	},
+	{
+		"_id": "42889379-c787-4f71-aa96-bc7a923fe83d",
+		"name": "OrangeOptimalBoar",
+		"components": [
+			{ "_id": "50f077de-32ff-440c-9948-4171ac9e6a4c", "name": "JumpDistance", "value": 45460 },
+			{
+				"_id": "7b71aedd-d685-4cca-bd2c-e28d77a99a6c",
+				"name": "QualityStats",
+				"value": [
+					{
+						"_id": "435c5c9c-88a6-4d13-b941-0b200cf5999b",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{ "_id": "5cb1b0b0-af18-48aa-8e04-a045af006cb1", "name": "WanderOffChance", "value": 47973 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "989cabc6-e3a1-4b31-ab4c-585bb4f41f33",
+		"name": "PinkJumpyTikiMan",
+		"components": [
+			{ "_id": "d101c698-8a38-48a3-b870-68f568837f8f", "name": "DamageOverTime", "value": 10564 },
+			{ "_id": "9d5c2989-b149-4999-9431-9567d0050972", "name": "DamageOverTime", "value": 13765 }
+		]
+	},
+	{
+		"_id": "78e1d2f0-09c0-4dab-8629-1c9926b2e5a2",
+		"name": "YellowAccurateBoar",
+		"components": [
+			{
+				"_id": "7b6c1cd1-6346-45c7-80a7-ed25ec83e75f",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "3ff9a649-3273-4a0c-b349-d7a9674df2ac", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "338d9e98-9848-4761-85d0-8f81e33f5507", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "56f3df75-f3a6-454b-b02e-d93e9f42c771", "name": "MaxRoamTime", "value": 93933.24 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "67d58b9a-25b6-4c08-843e-e4c556938816",
+		"name": "YellowBigFrog",
+		"components": [
+			{ "_id": "373d01b1-d16f-4492-a965-98ae2abecf8c", "name": "JumpDistance", "value": 31046 },
+			{ "_id": "a4ccbca5-8605-482e-a9b0-39bd21f3df70", "name": "JumpSpeed", "value": 65661 }
+		]
+	},
+	{
+		"_id": "c562be72-3d29-4ac2-99db-b155d2bb9930",
+		"name": "PurpleDeadlyBeast",
+		"components": [
+			{
+				"_id": "3a7df1d3-e010-4493-8a0c-b142382761dc",
+				"name": "BaseStats",
+				"value": [
+					{ "_id": "b2b67d9c-0253-4d16-8b14-916b50740523", "name": "MinRoamTime", "value": 27831.34 },
+					{ "_id": "504fdebb-bb00-4988-8015-2509649e03ab", "name": "MinIdleTime", "value": 10420.17 },
+					{ "_id": "17c34262-ecc8-406e-b011-50070a2fcc49", "name": "Accuracy", "value": 4872 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "2c2d8aaf-52eb-48e9-bcfe-9c08a30f0cdf",
+		"name": "PurpleFastZombie",
+		"components": [
+			{
+				"_id": "68e14c6e-61b0-4559-95b2-fe65499ef2a0",
+				"name": "OtherStats",
+				"value": [{ "_id": "3b43fc83-32f7-4f83-b6b1-6be56ab19120", "name": "MaxRoamTime", "value": 93933.24 }]
+			}
+		]
+	},
+	{
+		"_id": "15637249-0eda-4a1f-ad2f-781fed066a3e",
+		"name": "RedJumpyFly",
+		"components": [
+			{
+				"_id": "53960479-e29b-494b-8aa7-b708227e0edd",
+				"name": "BaseStats",
+				"value": [{ "_id": "76de1b2a-2d20-43ee-bbb8-700f3f074f36", "name": "Position", "value": { "x": 2273, "y": 92938 } }]
+			}
+		]
+	},
+	{
+		"_id": "ccfd90ff-14bd-49a9-bc1f-9d225bb2493f",
+		"name": "OrangeAngryBat",
+		"components": [
+			{
+				"_id": "94f01aac-6596-491c-a3a8-074dc4461288",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "af0c1739-fecf-48fb-b6bf-dba1abf7b949", "name": "MaxIdleTime", "value": 51654.29 },
+					{ "_id": "0c0cf0ab-7572-41b3-a21e-a9f0a2df583c", "name": "WanderOffChance", "value": 47973 }
+				]
+			},
+			{ "_id": "51088e42-3487-437b-b784-a8d94dc666c9", "name": "DamageOverTime", "value": 86636 }
+		]
+	},
+	{
+		"_id": "a2ef5dff-ce8d-4731-adeb-977ff60d7d03",
+		"name": "BlackAccurateSkeleton",
+		"components": [{ "_id": "537733aa-f90a-43ec-9ca8-a71cd6e96b72", "name": "JumpDistance", "value": 76076 }]
+	},
+	{
+		"_id": "6dda38c6-b75d-4db7-b7a7-f4554607eb17",
+		"name": "GreenTinyFly",
+		"components": [{ "_id": "1a48f8b9-64a4-461a-82d0-6dcb96ce677f", "name": "JumpSpeed", "value": 70064 }]
+	},
+	{
+		"_id": "86482679-ff9d-4828-9399-5dc0d33a5565",
+		"name": "PinkTinyBeast",
+		"components": [
+			{
+				"_id": "c082a945-c42d-4b33-b3e8-e7548bb41e57",
+				"name": "RageStats",
+				"value": [
+					{ "_id": "0065609c-874a-403f-be52-91b9fd2ed176", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "93ab5b17-6abd-41f1-8b48-cee96a6b61f3", "name": "Accuracy", "value": 4872 }
+				]
+			},
+			{ "_id": "2b35e16a-b84f-40be-86a1-6bdb8758d304", "name": "JumpDistance", "value": 17059 }
+		]
+	},
+	{
+		"_id": "ebf46d8b-0e13-40cb-ab93-65978d4982d9",
+		"name": "RedOptimalFly",
+		"components": [{ "_id": "fa4ba1e7-1914-4f4a-b953-7284f584d60a", "name": "DamageOverTime", "value": 17485 }]
+	},
+	{
+		"_id": "1b333129-cd8d-439b-bba9-0032715430c3",
+		"name": "OrangeOptimalTikiMan",
+		"components": [
+			{
+				"_id": "bae6f0e7-0e73-4976-a802-40ed94937eb8",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "efb53d04-8126-4ad8-b2c9-3d78397ea18c", "name": "WanderOffChance", "value": 47973 },
+					{
+						"_id": "0d361a35-073d-4baa-baad-680dc7cb0b49",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					}
+				]
+			},
+			{ "_id": "d5c07903-d62d-439a-b836-f06e54e8850e", "name": "DamageOverTime", "value": 4054 }
+		]
+	},
+	{
+		"_id": "bdce3675-46a0-4ece-a891-2d7814f5c308",
+		"name": "BlueAccurateFly",
+		"components": [
+			{
+				"_id": "fb08d2fc-68d5-430d-ae4b-337fa8bbb396",
+				"name": "BaseStats",
+				"value": [
+					{ "_id": "5deb0842-f793-43d9-99f4-88d5e4925585", "name": "MinRoamTime", "value": 27831.34 },
+					{ "_id": "c0ebf7e1-bb96-4190-add9-8bbe9d6486dc", "name": "MinIdleTime", "value": 10420.17 },
+					{ "_id": "d21298b1-6484-47d1-8a9e-cb478d872b5c", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			},
+			{
+				"_id": "b032d249-2094-4f5f-88c4-0a992a7c89e8",
+				"name": "BaseStats",
+				"value": [
+					{
+						"_id": "fef091f0-b69e-4cd7-9dcf-75759859540e",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "68dc4cec-32fb-4ae4-af7f-91f7673289c9",
+		"name": "GreenDeadlyZombie",
+		"components": [
+			{
+				"_id": "93169bb3-7cf6-4279-b917-ebc365de5677",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "cd2c8e83-2a4c-447d-9c8f-da3d645a02b1", "name": "Position", "value": { "x": 2273, "y": 92938 } },
+					{
+						"_id": "447922b0-c5cf-461c-8690-0cc9b81ed00e",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{ "_id": "19c54fa2-4ba2-436e-afa9-1fab408149b3", "name": "MaxRoamTime", "value": 93933.24 }
+				]
+			},
+			{ "_id": "26e7bed6-7b2a-45e5-9c75-dbd47a96f6a7", "name": "DamageOverTime", "value": 41479 }
+		]
+	},
+	{
+		"_id": "0948d36b-9e6e-4aa3-a609-dbf4f8680a03",
+		"name": "GreenStressedBeast",
+		"components": [
+			{
+				"_id": "e0814560-67d3-42a8-bd1a-d0c932cb2e9f",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "f66397c7-c539-4a8f-96c0-6941f5d10ec7", "name": "Accuracy", "value": 4872 },
+					{ "_id": "e54e47c8-299f-47d9-bd61-1289af6dacf1", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "26697a5f-2886-4dff-930f-b98aead9b702", "name": "WanderOffChance", "value": 47973 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "37c68b8f-802b-4475-9595-9a9155367961",
+		"name": "BlackReadyFly",
+		"components": [
+			{
+				"_id": "436992b5-fc96-4b8e-a45a-06535ed1badd",
+				"name": "BaseStats",
+				"value": [
+					{ "_id": "24967f40-566e-426e-872f-fa9d981a5251", "name": "Accuracy", "value": 4872 },
+					{
+						"_id": "2664b89e-c375-4ea6-90c1-97dbff8a9b25",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "185794ff-7d1e-4e28-98b0-d3b36bc6b17f",
+		"name": "GreenJumpyZombie",
+		"components": [
+			{
+				"_id": "8a9b2367-d245-4e61-8c29-f0fd1cfaedd0",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "6d062cb0-fb29-4d4e-a1ae-88a202b8b1bc", "name": "Position", "value": { "x": 2273, "y": 92938 } },
+					{ "_id": "2eec9e30-af6a-47dd-b6f4-b41e8fb66d38", "name": "WanderOffDuration", "value": 73149 }
+				]
+			},
+			{ "_id": "90df278b-49d5-4638-a153-2f48de99e24a", "name": "JumpSpeed", "value": 95060 }
+		]
+	},
+	{
+		"_id": "3b1567e5-5047-400b-ac94-ef271dc521a3",
+		"name": "WhiteFunnySkeleton",
+		"components": [
+			{
+				"_id": "743cce9d-cb55-45a1-b7ef-7cceb9a143a7",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "ed778936-1659-455a-9638-c0b9fd86668f", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "7c1d4e31-5d48-4376-980e-61479579665c", "name": "MinRoamTime", "value": 27831.34 },
+					{
+						"_id": "1daaa80b-b515-40ab-ab7d-a0841e194c93",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					}
+				]
+			}
+		]
+	},
+	{
+		"_id": "9d64e44e-8a24-4c9c-8f2e-8f16cd3fa267",
+		"name": "PinkFastTikiMan",
+		"components": [
+			{
+				"_id": "feaffe5e-ca7d-4d48-9696-90fda5cf2bda",
+				"name": "BaseStats",
+				"value": [
+					{ "_id": "aa523e0e-85a5-44c5-b538-aefb199920b0", "name": "Position", "value": { "x": 2273, "y": 92938 } },
+					{ "_id": "443aacb0-b8a9-4817-a22d-f5256e215b69", "name": "MaxIdleTime", "value": 51654.29 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "db2fcc69-2a6d-477e-b988-90d814480be2",
+		"name": "YellowTinyBeast",
+		"components": [
+			{
+				"_id": "ef3ad35b-1d02-463c-b3a5-6c9e8b6e8a6a",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "8d1b993b-3c53-47ff-be7e-e3089eea5fa0", "name": "MinRoamTime", "value": 27831.34 },
+					{ "_id": "587a3c55-4a9e-446f-8ae7-ea30cd0bb459", "name": "MaxIdleTime", "value": 51654.29 },
+					{ "_id": "4acca2f2-f2e7-4fd1-803c-ef12ff231b8e", "name": "MaxRoamTime", "value": 93933.24 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "e3e3b1ad-25de-46c8-b32d-32ccf6cd4802",
+		"name": "OrangeAngryFrog",
+		"components": [
+			{
+				"_id": "2a1fd717-d892-4a87-98a6-75276eb522db",
+				"name": "RageStats",
+				"value": [
+					{ "_id": "f53d49b7-efa6-4759-951e-8417347d5b26", "name": "MinRoamTime", "value": 27831.34 },
+					{ "_id": "c688ee60-02ab-401b-baff-30e4167d7fbd", "name": "MaxIdleTime", "value": 51654.29 },
+					{ "_id": "498b26a2-04b2-40ea-bab3-f4e028c283f2", "name": "MaxRoamTime", "value": 93933.24 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "292a4881-bd97-42e7-ad7e-d3d732b15f3f",
+		"name": "BlueAccurateBoar",
+		"components": [
+			{
+				"_id": "cc41b5f7-2017-4e3c-82c0-00e697398bb8",
+				"name": "RageStats",
+				"value": [{ "_id": "845a9e59-762a-458e-ba54-3c1cd545fc0c", "name": "MinRoamTime", "value": 27831.34 }]
+			},
+			{
+				"_id": "e3cdbb54-846e-4ce7-a7f4-bb3f04f5638a",
+				"name": "BaseStats",
+				"value": [{ "_id": "335ccf54-a663-4243-9621-f91c6b4f358f", "name": "Accuracy", "value": 4872 }]
+			}
+		]
+	},
+	{
+		"_id": "dda5576c-bea1-408c-833b-7276c6e05f2a",
+		"name": "PurpleFunnyBeast",
+		"components": [
+			{
+				"_id": "de7bddd4-f861-4e5b-8816-9ba3ae5f5898",
+				"name": "RageStats",
+				"value": [{ "_id": "591f2e38-f014-4a54-a884-714d98fddbf3", "name": "MaxRoamTime", "value": 93933.24 }]
+			}
+		]
+	},
+	{
+		"_id": "30ce3c51-c081-4480-849b-cb61fa0fd5bc",
+		"name": "BlueBigBat",
+		"components": [
+			{
+				"_id": "b99045ef-eecf-418f-8778-45bcb76cf974",
+				"name": "BaseStats",
+				"value": [{ "_id": "9943bac5-b18a-42c2-b546-0049e0d09eec", "name": "WanderOffDuration", "value": 73149 }]
+			},
+			{
+				"_id": "cdfd1cd6-5ac4-4b2b-baa7-97d8585aa6b3",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "609cc2f5-6785-4b2d-8b34-7d0e2a77beda", "name": "Position", "value": { "x": 2273, "y": 92938 } },
+					{ "_id": "c30e9cca-9d08-4f15-9310-3c5be2c70412", "name": "Accuracy", "value": 4872 },
+					{ "_id": "224a68d0-d379-4eac-afa0-21a4daa301e5", "name": "WanderOffDuration", "value": 73149 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "19e12a00-9a84-4366-b3a1-fc2530855a75",
+		"name": "BlueFastBoar",
+		"components": [
+			{
+				"_id": "99d4bcd1-2a88-47a6-9331-dbecdf4a10ad",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "ae34095c-6557-4bae-84b2-d917637857cd", "name": "MaxIdleTime", "value": 51654.29 },
+					{ "_id": "5189dd01-d7b8-4d73-966c-c3f7d552034b", "name": "MaxIdleTime", "value": 51654.29 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "f54dc4e0-7b20-4d8a-ada3-8164af4c0456",
+		"name": "OrangeBigFrog",
+		"components": [
+			{
+				"_id": "6e8519ce-59c4-49dc-bccf-4105a503d618",
+				"name": "RageStats",
+				"value": [{ "_id": "9d03ff83-0d08-4b53-b7c6-717bd53c1eb4", "name": "MinIdleTime", "value": 10420.17 }]
+			},
+			{
+				"_id": "0bbfc604-55be-480a-8ac6-c097035976af",
+				"name": "RageStats",
+				"value": [
+					{ "_id": "b4189463-690b-4e4c-bf66-0b16fdab4834", "name": "MaxIdleTime", "value": 51654.29 },
+					{
+						"_id": "771e7265-69d8-45be-b087-2df9abddea46",
+						"name": "OffensiveStats",
+						"value": { "Power": 3683, "Mastery": 45613, "CDR": 11273, "Haste": 7563, "Speed": 44433 }
+					},
+					{ "_id": "a0b5c945-b7d6-43ce-a794-fb5fd3c6d1bc", "name": "MaxIdleTime", "value": 51654.29 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "868dd267-c61c-417d-b1b8-1c3df0900fda",
+		"name": "YellowBigBeast",
+		"components": [{ "_id": "1bf4c371-7514-4930-bf60-9d7cc2a7200e", "name": "DamageOverTime", "value": 59187 }]
+	},
+	{
+		"_id": "b18f1d9e-4e2a-4cb2-b6b2-407f1e82fe9e",
+		"name": "PurpleFastBeast",
+		"components": [
+			{
+				"_id": "16311987-b043-449b-98a0-7f7990f34190",
+				"name": "BaseStats",
+				"value": [
+					{ "_id": "cbba2031-7b6e-431a-b97f-19b10358328a", "name": "WanderOffDuration", "value": 73149 },
+					{ "_id": "ff4df213-cf98-44cf-976c-0be38d6e0e8f", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "ce512ac9-d1dc-48b0-8149-2f93ad328154",
+		"name": "RedAccurateBat",
+		"components": [
+			{
+				"_id": "cd95c8d4-dff6-4f89-8b55-c85b236eaa52",
+				"name": "RageStats",
+				"value": [
+					{
+						"_id": "13928569-d766-46d5-adc4-6c797f846d05",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{ "_id": "26fc5d15-efd6-411d-bcad-e115867ed0f2", "name": "MinIdleTime", "value": 10420.17 },
+					{ "_id": "a5ad5cbb-1760-4d95-af19-04093f3fdfc2", "name": "WanderOffChance", "value": 47973 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "2d504340-efb6-4967-a596-e33e22027dc9",
+		"name": "BlueDeadlyFrog",
+		"components": [
+			{ "_id": "dd7d8412-aa1a-47c8-a5b8-d819c750936b", "name": "DamageOverTime", "value": 68560 },
+			{
+				"_id": "dc0809d0-26ad-48aa-8936-a13d21de146b",
+				"name": "BaseStats",
+				"value": [
+					{
+						"_id": "68b18a23-fcfa-4f2a-a264-1eb988202085",
+						"name": "DefensiveStats",
+						"value": { "Health": 46315, "Armor": 94902, "Shield": 95648 }
+					},
+					{ "_id": "b86e68dc-becb-4084-9dbc-6d554a02cdfd", "name": "MaxIdleTime", "value": 51654.29 },
+					{ "_id": "8e0785ae-0312-41e4-aca1-67d53a24a3e4", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "ac35397a-b605-42f0-8b09-8f15c3fbd7ac",
+		"name": "YellowJumpySkeleton",
+		"components": [{ "_id": "8631bd1e-045d-4d0a-bfe7-574259f30b79", "name": "JumpDistance", "value": 54863 }]
+	},
+	{
+		"_id": "a5423c85-bcdf-4791-80b7-159cf516f6c1",
+		"name": "BlackFastZombie",
+		"components": [
+			{
+				"_id": "000ade09-c94f-4274-8820-7650cd3b3196",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "3f46387b-6399-4d84-99ed-3ec73219faad", "name": "WanderOffChance", "value": 47973 },
+					{ "_id": "1f0af7b9-a46b-45eb-81bd-f7755f045f6d", "name": "MinRoamTime", "value": 27831.34 }
+				]
+			},
+			{
+				"_id": "bd79c491-60d9-4a96-a8e3-bc15d7f34dc2",
+				"name": "QualityStats",
+				"value": [
+					{ "_id": "c6bd8bc3-5480-433e-9d8c-7679038de48a", "name": "MaxRoamTime", "value": 93933.24 },
+					{ "_id": "c23c6d1b-8153-4f2c-ba20-6e1804cb7fb3", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "452cbf94-e4ef-4943-a1c4-1d790e4320f6",
+		"name": "YellowStressedTikiMan",
+		"components": [
+			{
+				"_id": "f257ae89-0b38-45b3-a991-875ae3ffea8e",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "b47ede9e-3d4b-4dd6-bb53-cebc649a7d27", "name": "Accuracy", "value": 4872 },
+					{ "_id": "49fa5ee0-4c18-4280-b059-7fd36c21146b", "name": "WanderOffChance", "value": 47973 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "1725b09e-c214-4c72-92b2-fe5a92414213",
+		"name": "BlueFunnyTikiMan",
+		"components": [
+			{ "_id": "d08e6160-4bae-4334-9913-3ee45a622d19", "name": "JumpDistance", "value": 82738 },
+			{ "_id": "6f6c2204-bb58-40da-8e73-1e1ab62008ff", "name": "JumpSpeed", "value": 65163 }
+		]
+	},
+	{
+		"_id": "bb965122-9f9c-4d7d-af19-4df3129f7a1c",
+		"name": "BlueFunnyFly",
+		"components": [
+			{ "_id": "abfa0072-7cd5-466a-87c8-7cdabbd4db87", "name": "JumpDistance", "value": 84640 },
+			{ "_id": "dd418621-2358-491b-b929-f89dce928b64", "name": "DamageOverTime", "value": 60115 }
+		]
+	},
+	{
+		"_id": "0f80812b-5486-4080-bd71-65006489d5df",
+		"name": "PurpleReadyZombie",
+		"components": [{ "_id": "d982d195-47d3-4f6f-99f3-808f10b444dd", "name": "JumpSpeed", "value": 69677 }]
+	},
+	{
+		"_id": "3bbba94d-457a-42da-a6bc-81dfb744dc3a",
+		"name": "PurpleReadyBoar",
+		"components": [
+			{
+				"_id": "af94ad64-d0f9-4101-ba98-d58b1955dfc7",
+				"name": "AIStats",
+				"value": [
+					{ "_id": "8a4ea4c0-bd82-4c92-84bd-0450697f878e", "name": "MaxIdleTime", "value": 51654.29 },
+					{ "_id": "c407ee07-b02c-4f75-bde1-1bead470b078", "name": "MinIdleTime", "value": 10420.17 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "507268d8-c69b-4b8a-9f33-9f9aa9018fee",
+		"name": "RedStressedFly",
+		"components": [
+			{
+				"_id": "3fee7707-5645-4da9-9c10-144506fa2286",
+				"name": "BaseStats",
+				"value": [
+					{ "_id": "8939d328-62a9-4429-a81f-337518fd13cc", "name": "Position", "value": { "x": 2273, "y": 92938 } },
+					{ "_id": "d567c902-a5f0-4e5c-a396-a9c70f427ea5", "name": "WanderOffChance", "value": 47973 }
+				]
+			}
+		]
+	},
+	{
+		"_id": "a2cc79d1-4d0e-4145-af25-562779b92f21",
+		"name": "OrangeBigBat",
+		"components": [
+			{
+				"_id": "edc6840a-8ef0-4444-a120-57801d310e9d",
+				"name": "OtherStats",
+				"value": [
+					{ "_id": "d7764244-b201-442f-8600-4c663ddd1c15", "name": "WanderOffDuration", "value": 73149 },
+					{ "_id": "27e22b19-942d-4e2a-ac71-5c3831e1ac3a", "name": "WanderOffDuration", "value": 73149 },
+					{ "_id": "d8e8cb4d-19c3-4858-91ef-84af4cf6d34b", "name": "MinRoamTime", "value": 27831.34 }
+				]
+			},
+			{
+				"_id": "3c2c0228-029f-4ffd-9777-3809f8b3f1f9",
+				"name": "QualityStats",
+				"value": [{ "_id": "130d35d7-5b8a-4245-96ea-dd8b0903a79b", "name": "MinRoamTime", "value": 27831.34 }]
+			}
+		]
+	},
+	{
+		"_id": "02dac2ed-90bb-4eb9-ab7c-3045618b60e5",
+		"name": "PurpleOptimalTikiMan",
+		"components": [{ "_id": "d937f348-d3f5-4b7a-a987-99b274211328", "name": "JumpDistance", "value": 16535 }]
+	}
+]

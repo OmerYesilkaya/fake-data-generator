@@ -27,6 +27,15 @@ function repeat(min, max, value) {
 	return result;
 }
 
+function repeatGenerate(min, max, generate) {
+	let result = [];
+	const times = randomBetweenInts(min, max);
+	for (let i = 0; i < times; i++) {
+		result.push(generate());
+	}
+	return result;
+}
+
 /**
  * Returns an array with {random(min,max)} amount of elements with given value.
  * @function
@@ -41,4 +50,4 @@ function random(array) {
 	return array[index];
 }
 
-module.exports = { random, repeat, randomBetweenInts };
+module.exports = { random, repeat, randomBetweenInts, repeatGenerate };

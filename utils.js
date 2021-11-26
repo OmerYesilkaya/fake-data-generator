@@ -27,11 +27,24 @@ function repeat(min, max, value) {
 	return result;
 }
 
+let generatedVal;
+function generateWithoutDuplicate(val, generator) {
+	if (generatedVal === val) {
+		val = generator();
+	}
+}
+
 function repeatGenerate(min, max, generate) {
 	let result = [];
 	const times = randomBetweenInts(min, max);
 	for (let i = 0; i < times; i++) {
-		result.push(generate());
+		let val = generate();
+		if (val === generatedVal) {
+			val = generate();
+		}
+		generatedVal = val;
+
+		result.push(val);
 	}
 	return result;
 }

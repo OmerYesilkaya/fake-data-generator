@@ -2,76 +2,99 @@ const faker = require("faker");
 const utils = require("./utils");
 const fs = require("fs");
 
-const adjectivesColor = ["Red", "Blue", "Orange", "Yellow", "Green", "Black", "White", "Purple", "Pink"];
-const adjectivesType = ["Jumpy", "Angry", "Stressed", "Funny", "Deadly", "Fast", "Big", "Ready", "Tiny", "Accurate", "Optimal"];
-const names = ["Frog", "Beast", "Skeleton", "Bat", "TikiMan", "Zombie", "Fly", "Boar"];
+let id = 0;
+const componentIds = [];
+const componentIdsWithChildren = [];
 
-const componentTypes = [
-	{ name: "BaseStats", hasChildren: true },
-	{ name: "AIStats", hasChildren: true },
-	{ name: "OtherStats", hasChildren: true },
-	{ name: "RageStats", hasChildren: true },
-	{ name: "QualityStats", hasChildren: true },
-	{ name: "JumpSpeed", hasChildren: false },
-	{ name: "DamageOverTime", hasChildren: false },
-	{ name: "JumpDistance", hasChildren: false },
+const components = [];
+const prefabs = [];
+const prefabComponents = [];
+
+const prefabAdjectivesColor = ["Red", "Blue", "Orange", "Yellow", "Green", "Black", "White", "Purple", "Pink"];
+const prefabAdjectivesType = ["Jumpy", "Angry", "Stressed", "Funny", "Deadly", "Fast", "Big", "Ready", "Tiny", "Accurate", "Optimal"];
+const prefabNames = ["Frog", "Beast", "Skeleton", "Bat", "TikiMan", "Zombie", "Fly", "Boar"];
+
+const componentNamePrefixes = ["Base", "AI", "Rage", "Quality", "Jump", "DamageOverTime"];
+const componentNameSuffixes = ["Stats", "Buffer", "Speed", "Distance", "Damage", "Limit", "Range"];
+const singleComponentNames = [
+	"Power",
+	"Mastery",
+	"CDR",
+	"Haste",
+	"Speed",
+	"Health",
+	"Armor",
+	"Shield",
+	"Accuracy",
+	"WanderOffChance",
+	"WanderOffDuration",
+	"MinIdleTime",
+	"MaxIdleTime",
+	"MinRoamTime",
+	"MaxRoamTime",
+	"Position",
 ];
-const subComponentTypes = {
-	OffensiveStats: {
-		Power: faker.datatype.number(),
-		Mastery: faker.datatype.number(),
-		CDR: faker.datatype.number(),
-		Haste: faker.datatype.number(),
-		Speed: faker.datatype.number(),
-	},
-	DefensiveStats: {
-		Health: faker.datatype.number(),
-		Armor: faker.datatype.number(),
-		Shield: faker.datatype.number(),
-	},
-	Accuracy: faker.datatype.number(),
-	WanderOffChance: faker.datatype.number(),
-	WanderOffDuration: faker.datatype.number(),
-	MinIdleTime: faker.datatype.float(),
-	MaxIdleTime: faker.datatype.float(),
-	MinRoamTime: faker.datatype.float(),
-	MaxRoamTime: faker.datatype.float(),
-	Position: {
-		x: faker.datatype.number(),
-		y: faker.datatype.number(),
-	},
-};
 
-const dataSize = 100;
+const componentAmount = 100;
+const prefabAmount = 100;
 
-const data = [];
-
-function generateValue() {
-	const componentType = utils.random(componentTypes);
-	let name = componentType.name;
-	let value;
-
-	if (componentType.hasChildren) {
-		value = utils.repeatGenerate(1, 4, () =>
-			utils.random(Object.keys(subComponentTypes).map((key) => ({ _id: faker.datatype.uuid(), name: key, value: subComponentTypes[key] })))
-		);
-	} else {
-		value = faker.datatype.number();
-	}
-
-	return {
-		_id: faker.datatype.uuid(),
-		name: name,
-		value: value,
-	};
-}
-
-for (let i = 0; i < dataSize; i++) {
-	data.push({
-		_id: faker.datatype.uuid(),
-		name: `${utils.random(adjectivesColor)}${utils.random(adjectivesType)}${utils.random(names)}`,
-		components: utils.repeatGenerate(1, 3, generateValue),
+function generatePrefab() {
+	if (componentIds.length === 0 && componentIdsWithChildren.length === 0) return;
+	id++;
+	const allComponents = [...componentIdsWithChildren, ...componentIds];
+	prefabs.push({
+		Id: id,
+		Name: `${utils.random(prefabAdjectivesColor)}${utils.random(prefabAdjectivesType)}${utils.random(prefabNames)}`,
+		Components: utils.repeatGenerate(1, 3, () => utils.random(allComponents)),
 	});
 }
 
-fs.writeFileSync("generated.json", JSON.stringify(data));
+function generatePrefabComponents() {
+	if (prefabs.length === 0) return;
+	id++;
+	const prefab = utils.random(prefabs);
+
+	const prefabComponents = prefab.Components.map((component) => ({
+		PrefabId: prefab.id,
+		ComponentId: component,
+		Value: faker.datatype.number(100),
+	}));
+
+	return prefabComponents;
+}
+
+function generateComponent() {
+	id++;
+	const hasParent = Math.random() > 0.5;
+	const hasChildren = Math.random() > 0.5;
+	let name;
+
+	if (hasChildren) {
+		componentIdsWithChildren.push(id);
+		name = utils.random(componentNamePrefixes) + utils.random(componentNameSuffixes);
+	} else {
+		componentIds.push(id);
+		name = utils.random(singleComponentNames);
+	}
+
+	return {
+		Id: id,
+		Name: name,
+		Parent: hasParent && componentIdsWithChildren.length > 0 ? utils.random(componentIdsWithChildren) : null,
+		Children: hasChildren && componentIds.length > 0 ? utils.repeatGenerate(1, 3, () => utils.random(componentIds)) : null,
+	};
+}
+
+for (let i = 0; i < componentAmount; i++) {
+	components.push(generateComponent());
+}
+
+for (let i = 0; i < prefabAmount; i++) {
+	prefabComponents.push(generatePrefab());
+}
+
+generatePrefabComponents();
+
+fs.writeFileSync("components.json", JSON.stringify(components));
+fs.writeFileSync("prefabs.json", JSON.stringify(prefabs));
+fs.writeFileSync("prefabComponents.json", JSON.stringify(prefabComponents));
